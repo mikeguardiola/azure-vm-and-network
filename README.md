@@ -141,4 +141,4 @@ Now, head back over to your container. Click on the "Upload" button. You can eit
 Now that the text file has been uploaded, you can edit, download, delete or choose one of the other available options.
 </p>
 <br />
-Okay, this concludes this tutorial on how to create a storage account in Azure. Thank you for following along!
+Congratulations! This concludes this tutorial on how to create a storage account in Azure. Thank you for following along!

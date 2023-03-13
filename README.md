@@ -19,10 +19,12 @@ This guide will teach you how to create Virtual Machines and a Virtual Network i
 
 <h2>High-Level Steps</h2>
  
-- Create a Storage Account within your Azure Resource Group
-- Create a file on your local desktop and upload it into the Storage Account
+- Create a Windows 10 Virtual Machine
+- While creating the VM, allow it to create a new Virtual Network (Vnet) and Subnet
+- Create a Linux (Ubuntu) Virtual Machine
+- Observe your Virtual Network with Network Watcher
 
-<h2>Azure Storage Account Creation: Step-By-Step Instructions</h2>
+<h2>Azure Virtual Machine Creation and Network Topology Observation: Step-By-Step Instructions</h2>
 
 <p>
   Step 1:

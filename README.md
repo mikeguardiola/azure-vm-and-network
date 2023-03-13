@@ -24,7 +24,7 @@ This guide will teach you how to create Virtual Machines and a Virtual Network i
 - Create a Linux (Ubuntu) Virtual Machine
 - Observe your Virtual Network with Network Watcher
 
-<h2>Azure Virtual Machine Creation and Network Topology Observation: Step-By-Step Instructions</h2>
+<h2>Step-By-Step Instructions:</h2>
 
 <p>
   Step 1:

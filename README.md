@@ -28,37 +28,37 @@ This guide will teach you how to create Virtual Machines and a Virtual Network i
 
 <p>
   Step 1:
-<img src="https://i.imgur.com/iptUhEI.png"/>
+<img src="https://i.imgur.com/socu9go.png"/>
 </p>
 <p>
-Within the Azure Portal, navigate to the search bar at the top. Within the search bar, type "Storage accounts" and select it.
+Within the Azure Portal, navigate to the search bar at the top. Within the search bar, type "Virtual machines" and select it.
 </p>
 <br />
 
 <p>
   Step 2:
-<img src="https://i.imgur.com/hYekkug.png"/>
+<img src="https://i.imgur.com/pr8xnDL.png"/>
 </p>
 <p>
-After you click "Storage accounts", you will be taken to this screen. Once there, click on "Create".
+After you click "Virtual machines", you will be taken to this screen. Once there, click on "Create" and select "Azure virtual machine".
 </p>
 <br />
 
 <p>
   Step 3:
-<img src="https://i.imgur.com/jux9fkp.png"/>
+<img src="https://i.imgur.com/OEs2drO.png"/>
 </p>
 <p>
-Once you are at this screen, you can begin configuring your storage account. Under "Project Details", make sure that you have the correct subscription and resource group selected from the drop down menus. Since you are building off the previous tutorial, you can go ahead and select "Azure subsciption 1" and "resource-group-lab-01". Under "Instance Details", you will need to create a globally unique storage account name. I went with "mikecoursecareerslab01", but you can choose something that is unique to you. Next, select the correct region that most closely matches where you live. After that, you can click the "Review" button at the bottom of the screen.
+Once you are at this screen, you can begin configuring your virtual machine. Under "Project Details", make sure that you have the correct subscription and resource group selected from the drop down menus. Since you are building off the previous tutorial, you can go ahead and select "Azure subsciption 1" and "resource-group-lab-01". Under "Instance Details", you will need to give your virtual machine a name. I went with "VM1". Next, select the correct region that most closely matches where you live. Next, for "Image" you will want to select "Windows 10 Pro, version 21H2 - x64 Gen2 (free services eligible)".
 </p>
 <br />
 
 <p>
   Step 4:
-<img src="https://i.imgur.com/FgrJl29.png"/>
+<img src="https://i.imgur.com/ZUBCPI5.png"/>
 </p>
 <p>
-Azure will now run through a quick validation process. Once that is complete, you can click on the "Create" button at the bottom left of the screen.
+After that, you will need to scroll down until you see this portion of the screen. For the virtual machine size, select "Standard_E2s_v3-2 vcpus, 16 GiB memory" from the drop down menu. Under "Administrator account", create a username and password. Next, check the box under "Licensing". After that, go ahead and click on the "Next:Disks >" button.
 </p>
 <br />
 

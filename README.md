@@ -64,10 +64,10 @@ After that, you will need to scroll down until you see this portion of the scree
 
 <p>
   Step 5:
-<img src="https://i.imgur.com/U3TxVhV.png"/>
+<img src="https://i.imgur.com/3umaVjc.png"/>
 </p>
 <p>
-Your storage account will now go through a deployment process which may take about 30 seconds to a minute. Once completed, you will see a green check mark next to "Your deploymeny is complete" and you can now click on the "Go to resource" button.
+You do not need to change any of these settings, so just click on the "Next: Networking >" button.
 </p>
 <br />
 

@@ -73,33 +73,33 @@ You do not need to change any of these settings, so just click on the "Next: Net
 
 <p>
   Step 6:
-<img src="https://i.imgur.com/QXIHGL2.png"/>
+<img src="https://i.imgur.com/jMFjgEc.png"/>
 </p>
 <p>
-You will be taken to the portal for your storage account. We are now ready to upload a basic text file. To do so, you will want to create a folder within your storage account, also known as a container. On the left of your screen, click on "Containers".
+Once you are at this screen, you do not need to change any settings. However, you will want to make some observations. Under " Network interface", you can see how Azure automatically creates a Virtual Network or Vnet whenever you are setting up a virtual machine. This Vnet is what will connect multiple virtual machines and allow you to facilitate data communication. When ready, go ahead and click on the "Review + create" button.
 </p>
 <br />
 
 <p>
   Step 7:
-<img src="https://i.imgur.com/2UeninD.png"/>
+<img src="https://i.imgur.com/jKQU4KZ.png"/>
 </p>
 <p>
-Once you are at this screen, click on "+ Container".
+Azure will now go through a quick validation process. Once the validation process is complete, click on the "Create" button.
 </p>
 <br />
 
 <p>
   Step 8:
-<img src="https://i.imgur.com/6gYK0gP.png"/>
+<img src="https://i.imgur.com/sTtHUUU.png"/>
 </p>
 <p>
-A new window will open up on the right side of your screen to edit your container. Give your container a unique name. You can leave the "Public access level" to the default setting of "Private". When you are finished, click on the "Create" button.
+Azure will go through its deployment process to create all of the resources connected to your virtual machine. Once deployment is complete, you will be able to see all the various resources that were created under "Deployment details". When ready, click on the "Create another VM" button.
 </p>
 
 <p>
   Step 9:
-<img src="https://i.imgur.com/aoajfg1.png"/>
+<img src="https://i.imgur.com/kEXy51l.png"/>
 </p>
 <p>
 Once your container has been created, go ahead an click on it to enter your container's portal.

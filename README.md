@@ -108,28 +108,55 @@ You will now repeat the process from earlier for creating a virtual machine. Und
 
 <p>
   Step 10:
-<img src="https://i.imgur.com/A09i2FB.png"/>
+<img src="https://i.imgur.com/rV9W2PV.png"/>
 </p>
 <p>
-After that, you will need to scroll down until you see this portion of the screen. For the virtual machine size, select "Standard_E2s_v3-2 vcpus, 16 GiB memory" from the drop down menu. Under "Administrator account", create a username and password. Next, check the box under "Licensing". After that, go ahead and click on the "Next:Disks >" button..
+After that, you will need to scroll down until you see this portion of the screen. For the virtual machine size, select "Standard_E2s_v3-2 vcpus, 16 GiB memory" from the drop down menu. Next, you will need to select "Password" instead of "SSH public key". Then go ahead and create a username and password. After that, go ahead and click on the "Next:Disks >" button.
 </p>
 <br />
 
 <p>
   Step 11:
-<img src="https://i.imgur.com/VjKDm35.png"/>
+<img src="https://i.imgur.com/ZygXPDw.png"/>
 </p>
 <p>
-First, you will need to create a text document and save it to your desktop. For this tutorial, I will be using Notepad. You can access this program by pressing the Windows Key and typing "Notepad". Once you have it open, add some text to your file and save it to your desktop.
+You do not need to change any of these settings, so just click on the "Next: Networking >" button.
 </p>
 <br />
 
 <p>
   Step 12:
-<img src="https://i.imgur.com/J80CLl7.png"/>
+<img src="https://i.imgur.com/4Ya5yOd.png"/>
 </p>
 <p>
-Now, head back over to your container. Click on the "Upload" button. You can either drag and drop your file from your desktop, or you can upload from the file explorer. Click on the blue "Upload" button when ready.
+Once you are at this screen, you do not need to change any settings since Azure already pre-selected the correct settings. Under "Network interface", double check to make sure that you have the virtual network that you created earlier selected, which is "VM1-vnet". This will ensure that both of your virtual machines are able to communicate with each other. After that, go ahead and click on the "Review + create" button.
+</p>
+<br />
+
+<p>
+  Step 13:
+<img src="https://i.imgur.com/J3uBAq0.png"/>
+</p>
+<p>
+Azure will now go through a quick validation process. Once the validation process is complete, click on the "Create" button.
+</p>
+<br />
+
+<p>
+  Step 14:
+<img src="https://i.imgur.com/7hI695A.png"/>
+</p>
+<p>
+Azure will go through its deployment process to create all of the resources connected to your virtual machine. Once deployment is complete, you will be able to see all the various resources that were created under "Deployment details".
+</p>
+<br />
+
+<p>
+  Step 15:
+<img src="https://i.imgur.com/luHUUPH.png"/>
+</p>
+<p>
+Next, you will want to navigate back to the Azure Portal home screen. Once there, click on the search bar and type "Network Watcher" and select it.
 </p>
 <br />
 

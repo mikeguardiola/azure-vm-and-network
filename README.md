@@ -102,7 +102,7 @@ Azure will go through its deployment process to create all of the resources conn
 <img src="https://i.imgur.com/kEXy51l.png"/>
 </p>
 <p>
-Once your container has been created, go ahead an click on it to enter your container's portal.
+You will now repeat the process from earlier for creating a virtual machine. Under "Project Details", make sure that you have the correct subscription and resource group selected from the drop down menus. Since you are building off the previous tutorial, you can go ahead and select "Azure subsciption 1" and "resource-group-lab-01". Under "Instance Details", you will need to give your virtual machine a name. I went with "VM2". Next, select the correct region that most closely matches where you live. Next, for "Image" you will want to select "Ubuntu Server 20.04 - x64 Gen2 (free services eligible)".
 </p>
 <br />
 
@@ -111,7 +111,7 @@ Once your container has been created, go ahead an click on it to enter your cont
 <img src="https://i.imgur.com/A09i2FB.png"/>
 </p>
 <p>
-Now you are going to want to upload a basic text file into your container.
+After that, you will need to scroll down until you see this portion of the screen. For the virtual machine size, select "Standard_E2s_v3-2 vcpus, 16 GiB memory" from the drop down menu. Under "Administrator account", create a username and password. Next, check the box under "Licensing". After that, go ahead and click on the "Next:Disks >" button..
 </p>
 <br />
 

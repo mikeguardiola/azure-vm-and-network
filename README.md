@@ -177,4 +177,4 @@ Once you are at this screen, go ahead and click on "Topology".
 After you click on "Topology", you will need to make sure you have the correct "Resource Group" and correct "Virtual Network" selected. Once you have those selected, Azure will now visually display a model of what your network topology looks like, which is an excellent feature that allows you to visualize everything that you just created. This also serves as a nice verification tool to ensure that your network topology is set up correctly.
 </p>
 <br />
-That concludes your tutorial on how to create virtual machines in Azure, as well as observe network topology. Well done and thank you for following along!
+This concludes your tutorial on how to create virtual machines in Azure, as well as observe network topology. Well done and thank you for following along!
